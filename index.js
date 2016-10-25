@@ -4,6 +4,8 @@ if (typeof Pebble !== 'undefined') {
     document.createElement = null; //Shim to trick the browserify shims (also for iOS)
 }
 
+//test!
+
 var yahoo = require('./providers/yahoo');
 var openweathermap = require('./providers/openweathermap');
 var yrno = require('./providers/yrno');
